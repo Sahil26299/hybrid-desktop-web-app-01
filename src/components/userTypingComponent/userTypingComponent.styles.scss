@@ -1,0 +1,108 @@
+@import "../../utilities//commonStyles/commonStyles.scss";
+
+.dummyProfileContainerSmall {
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+  height: 25px;
+  width: 25px;
+  //   padding: 2px;
+  border: 3px solid #fff;
+  overflow: hidden;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  .dummyProfile {
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+}
+.dummyProfileContainerMedium {
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+  height: 50px;
+  width: 50px;
+  //   padding: 2px;
+  border: 3px solid #fff;
+  overflow: hidden;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  .dummyProfile {
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+}
+.dummyProfileContainerLarge {
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+  height: 75px;
+  width: 75px;
+  //   padding: 2px;
+  border: 3px solid #fff;
+  overflow: hidden;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  .dummyProfile {
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+}
+
+.promptInputSmall {
+  padding-right: 0px !important;
+  height: 30px;
+  min-width: 25px;
+  background-color: #fff;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 2px solid $primary-btn-color;
+
+  .sendButton {
+    font-size: 16px;
+  }
+  .typewriterWrapperClass {
+    font-size: 14px;
+  }
+}
+.promptInputMedium {
+  padding-right: 0px;
+  height: 50px;
+  min-width: 50px;
+  background-color: #fff;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 2px solid $primary-btn-color;
+
+  .sendButton {
+    font-size: 24px;
+  }
+  .typewriterWrapperClass {
+    font-size: 16px;
+  }
+}
+.promptInputLarge {
+  padding-right: 0px;
+  height: 75px;
+  min-width: 75px;
+  background-color: #fff;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border: 2px solid $primary-btn-color;
+
+  .sendButton {
+    font-size: 24px;
+  }
+  .typewriterWrapperClass {
+    font-size: 24px;
+  }
+}
+.sendBtnWrapper {
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
+}

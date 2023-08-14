@@ -1,0 +1,154 @@
+$background-color: #002a5e;
+$primary-btn-color: rgb(65, 150, 247);
+
+.heroTitle {
+  background: linear-gradient(90deg, #ffebf8 5%, #c14c96, rgb(65, 195, 247));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  margin: 0;
+}
+
+.dis-flex {
+  display: flex !important;
+}
+.col-left-centered{
+  flex-direction: column;
+  justify-content: center;
+}
+.row-left-centered{
+  align-items: center;
+  justify-content: flex-start;
+}
+.col-centered-horizontally{
+  flex-direction: column;
+  align-items: center;
+}
+.col-centered {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-centered {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.row-align-centered-justify-sb {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.row-align-centered-justify-se {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.row-align-centered-justify-sa {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/**
+Padding Horizontal and Vertical (Basic,Moderate and advance)
+*/
+.basicPaddingHorizontal {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.moderatePaddingHorizontal {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.advPaddingHorizontal {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.basicPaddingVertical {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.moderatePaddingVertical {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.advPaddingVertical {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+/**
+Margin Horizontal and Vertical (Basic,Moderate and advance)
+*/
+.basicMarginHorizontal {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.moderateMarginHorizontal {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.advMarginHorizontal {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.basicMarginVertical {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.moderateMarginVertical {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.advMarginVertical {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+/**
+MUI Common outline removed, fontfamily updated & text switched to pascal conv. 
+*/
+.mui-common-btn {
+  outline: none !important;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: capitalize !important;
+}
+
+/**
+Different sizes Text (for grand-headings, headings, sub headings, normal headings and normal paragraphs.)
+*/
+.grand-heading-text {
+  font-size: 7rem;
+  margin: 0;
+  padding: 0;
+}
+.primary-heading-text {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.secondary-heading-text {
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.normal-text {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+/**
+Different text alignments (by default left)
+*/
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}

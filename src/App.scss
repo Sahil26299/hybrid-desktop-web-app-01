@@ -1,0 +1,42 @@
+@import "./utilities/commonStyles/commonStyles.scss";
+
+#root {
+  // max-width: 1280px;
+  margin: 0;
+  padding: 0;
+}
+
+.app-wrapper {
+  background-color: $background-color;
+  height: 100%;
+}
+// .backgroundImageContainer {
+//   background-image: linear-gradient(
+//       to bottom,
+//       #00377b14,
+//       #00377b00,
+//       #00377bc7 95%
+//     ),
+//     url("./assets/videos/landingPageBackgroundVideo.mp4");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+//   width: 100%;
+//   min-height: 100vh;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   z-index: 0;
+// }
+#background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  // opacity: 0.75;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}

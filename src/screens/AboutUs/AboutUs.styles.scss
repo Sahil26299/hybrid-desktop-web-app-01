@@ -1,0 +1,14 @@
+@import "../../utilities//commonStyles/commonStyles.scss";
+
+.aboutUsWrapper {
+  width: 100%;
+  height: 100vh;
+  .parallaxBannerClass {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+}
