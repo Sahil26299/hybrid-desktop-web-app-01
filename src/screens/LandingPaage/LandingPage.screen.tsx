@@ -155,7 +155,7 @@ export default function LandingPage() {
               <div
                 className="oddGridLeftSection"
                 style={{
-                  backgroundImage: `url(${Images.grid3LandingPage})`,
+                  backgroundImage: `url(${Images.parallaxBackground})`,
                 }}
               >
                 <UserTypingComponent

@@ -10,7 +10,7 @@ export const AboutUs = () => {
   return (
     <div id={`${constants.ABOUTUS_PAGE_NAV_ID}`} className="aboutUsWrapper">
       <ParallaxBanner
-        layers={[{ image: Images.parallaxBackgroundImage2, speed: -20, easing:'easeInOut' }]}
+        layers={[{ image: Images.grid3LandingPage, speed: -20, easing:'easeInOut' }]}
         className="parallaxBannerClass"
       >
         <GridComponent

@@ -1,0 +1,1209 @@
+.heroTitle {
+  background: linear-gradient(90deg, #ffebf8 5%, #c14c96, rgb(65, 195, 247));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  margin: 0;
+}
+
+.dis-flex {
+  display: flex !important;
+}
+
+.col-left-centered {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row-left-centered {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.col-centered-horizontally {
+  flex-direction: column;
+  align-items: center;
+}
+
+.col-centered {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-centered {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-align-centered-justify-sb {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row-align-centered-justify-se {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.row-align-centered-justify-sa {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/**
+Padding Horizontal and Vertical (Basic,Moderate and advance)
+*/
+
+.basicPaddingHorizontal {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.moderatePaddingHorizontal {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.advPaddingHorizontal {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.basicPaddingVertical {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.moderatePaddingVertical {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.advPaddingVertical {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+/**
+Margin Horizontal and Vertical (Basic,Moderate and advance)
+*/
+
+.basicMarginHorizontal {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.moderateMarginHorizontal {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.advMarginHorizontal {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.basicMarginVertical {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.moderateMarginVertical {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.advMarginVertical {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+/**
+MUI Common outline removed, fontfamily updated & text switched to pascal conv. 
+*/
+
+.mui-common-btn {
+  outline: none !important;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: capitalize !important;
+}
+
+/**
+Different sizes Text (for grand-headings, headings, sub headings, normal headings and normal paragraphs.)
+*/
+
+.grand-heading-text {
+  font-size: 7rem;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-heading-text {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.secondary-heading-text {
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.normal-text {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+Different text alignments (by default left)
+*/
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.app-wrapper {
+  background-color: #002a5e;
+  height: 100%;
+}
+
+#background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}.heroTitle {
+  background: linear-gradient(90deg, #ffebf8 5%, #c14c96, rgb(65, 195, 247));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  margin: 0;
+}
+
+.dis-flex {
+  display: flex !important;
+}
+
+.col-left-centered {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row-left-centered {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.col-centered-horizontally {
+  flex-direction: column;
+  align-items: center;
+}
+
+.col-centered {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-centered {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-align-centered-justify-sb {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row-align-centered-justify-se {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.row-align-centered-justify-sa {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/**
+Padding Horizontal and Vertical (Basic,Moderate and advance)
+*/
+
+.basicPaddingHorizontal {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.moderatePaddingHorizontal {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.advPaddingHorizontal {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.basicPaddingVertical {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.moderatePaddingVertical {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.advPaddingVertical {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+/**
+Margin Horizontal and Vertical (Basic,Moderate and advance)
+*/
+
+.basicMarginHorizontal {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.moderateMarginHorizontal {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.advMarginHorizontal {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.basicMarginVertical {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.moderateMarginVertical {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.advMarginVertical {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+/**
+MUI Common outline removed, fontfamily updated & text switched to pascal conv. 
+*/
+
+.mui-common-btn {
+  outline: none !important;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: capitalize !important;
+}
+
+/**
+Different sizes Text (for grand-headings, headings, sub headings, normal headings and normal paragraphs.)
+*/
+
+.grand-heading-text {
+  font-size: 7rem;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-heading-text {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.secondary-heading-text {
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.normal-text {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+Different text alignments (by default left)
+*/
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.app-bar-wrapper {
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.navButtons {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  text-transform: capitalize !important;
+  outline: none;
+  border: none;
+}.heroTitle {
+  background: linear-gradient(90deg, #ffebf8 5%, #c14c96, rgb(65, 195, 247));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  margin: 0;
+}
+
+.dis-flex {
+  display: flex !important;
+}
+
+.col-left-centered {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row-left-centered {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.col-centered-horizontally {
+  flex-direction: column;
+  align-items: center;
+}
+
+.col-centered {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-centered {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-align-centered-justify-sb {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row-align-centered-justify-se {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.row-align-centered-justify-sa {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/**
+Padding Horizontal and Vertical (Basic,Moderate and advance)
+*/
+.basicPaddingHorizontal {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.moderatePaddingHorizontal {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.advPaddingHorizontal {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.basicPaddingVertical {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.moderatePaddingVertical {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.advPaddingVertical {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+/**
+Margin Horizontal and Vertical (Basic,Moderate and advance)
+*/
+.basicMarginHorizontal {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.moderateMarginHorizontal {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.advMarginHorizontal {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.basicMarginVertical {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.moderateMarginVertical {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.advMarginVertical {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+/**
+MUI Common outline removed, fontfamily updated & text switched to pascal conv. 
+*/
+.mui-common-btn {
+  outline: none !important;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: capitalize !important;
+}
+
+/**
+Different sizes Text (for grand-headings, headings, sub headings, normal headings and normal paragraphs.)
+*/
+.grand-heading-text {
+  font-size: 7rem;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-heading-text {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.secondary-heading-text {
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.normal-text {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+Different text alignments (by default left)
+*/
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}.heroTitle {
+  background: linear-gradient(90deg, #ffebf8 5%, #c14c96, rgb(65, 195, 247));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  margin: 0;
+}
+
+.dis-flex {
+  display: flex !important;
+}
+
+.col-left-centered {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row-left-centered {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.col-centered-horizontally {
+  flex-direction: column;
+  align-items: center;
+}
+
+.col-centered {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-centered {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-align-centered-justify-sb {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row-align-centered-justify-se {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.row-align-centered-justify-sa {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/**
+Padding Horizontal and Vertical (Basic,Moderate and advance)
+*/
+
+.basicPaddingHorizontal {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.moderatePaddingHorizontal {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.advPaddingHorizontal {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.basicPaddingVertical {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.moderatePaddingVertical {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.advPaddingVertical {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+/**
+Margin Horizontal and Vertical (Basic,Moderate and advance)
+*/
+
+.basicMarginHorizontal {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.moderateMarginHorizontal {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.advMarginHorizontal {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.basicMarginVertical {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.moderateMarginVertical {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.advMarginVertical {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+/**
+MUI Common outline removed, fontfamily updated & text switched to pascal conv. 
+*/
+
+.mui-common-btn {
+  outline: none !important;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: capitalize !important;
+}
+
+/**
+Different sizes Text (for grand-headings, headings, sub headings, normal headings and normal paragraphs.)
+*/
+
+.grand-heading-text {
+  font-size: 7rem;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-heading-text {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.secondary-heading-text {
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.normal-text {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+Different text alignments (by default left)
+*/
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#landingSection {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+#landingSection .landingWrapper {
+  height: 100vh;
+  justify-content: flex-start !important;
+}
+
+#landingSection .landingWrapper > div:first-child {
+  background-color: rgb(65, 195, 247);
+  border-radius: 15px;
+  width: 150px;
+  height: 30px;
+}
+
+#landingSection .landingWrapper > div:first-child span {
+  color: #002a5e;
+}
+
+#landingSection .landingWrapper .subTitle {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  width: 30%;
+}
+
+#landingSection .landingWrapper .subTitle .specialFont {
+  font-family: "Dancing Script";
+  font-size: 24px;
+  color: #fff;
+  padding-right: 10px;
+}
+
+#landingSection .landingWrapper .landingScreen-primary-Btn {
+  background: rgb(65, 150, 247);
+  height: 50px;
+  width: 170px;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 20px;
+  transition: transform 0.25s ease-in-out;
+}
+
+#landingSection .landingWrapper .landingScreen-primary-Btn:hover {
+  transform: translateX(3px);
+}
+
+#landingSection .landingWrapper .landingScreen-secondary-Btn {
+  background: #fff;
+  height: 50px;
+  width: 170px;
+  font-size: 16px;
+  color: rgb(65, 150, 247);
+  transition: transform 0.25s ease-in-out;
+}
+
+#landingSection .landingWrapper .landingScreen-secondary-Btn:hover {
+  transform: translateX(-3px);
+}
+
+#landingSection .evenGridRighttSection {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#landingSection .oddGridLeftSection {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+}
+
+.userTypingGridClass1 {
+  position: absolute;
+  bottom: -25px;
+  left: 20px;
+}.heroTitle {
+  background: linear-gradient(90deg, #ffebf8 5%, #c14c96, rgb(65, 195, 247));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  margin: 0;
+}
+
+.dis-flex {
+  display: flex !important;
+}
+
+.col-left-centered {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row-left-centered {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.col-centered-horizontally {
+  flex-direction: column;
+  align-items: center;
+}
+
+.col-centered {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-centered {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-align-centered-justify-sb {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row-align-centered-justify-se {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.row-align-centered-justify-sa {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/**
+Padding Horizontal and Vertical (Basic,Moderate and advance)
+*/
+
+.basicPaddingHorizontal {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.moderatePaddingHorizontal {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.advPaddingHorizontal {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.basicPaddingVertical {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.moderatePaddingVertical {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.advPaddingVertical {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+/**
+Margin Horizontal and Vertical (Basic,Moderate and advance)
+*/
+
+.basicMarginHorizontal {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.moderateMarginHorizontal {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.advMarginHorizontal {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.basicMarginVertical {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.moderateMarginVertical {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.advMarginVertical {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+/**
+MUI Common outline removed, fontfamily updated & text switched to pascal conv. 
+*/
+
+.mui-common-btn {
+  outline: none !important;
+  font-family: "Poppins", sans-serif !important;
+  text-transform: capitalize !important;
+}
+
+/**
+Different sizes Text (for grand-headings, headings, sub headings, normal headings and normal paragraphs.)
+*/
+
+.grand-heading-text {
+  font-size: 7rem;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-heading-text {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.secondary-heading-text {
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.normal-text {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+Different text alignments (by default left)
+*/
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.dummyProfileContainerSmall {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  height: 25px;
+  width: 25px;
+  border: 3px solid #fff;
+  overflow: hidden;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.dummyProfileContainerSmall .dummyProfile {
+  height: 100%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.dummyProfileContainerMedium {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  height: 50px;
+  width: 50px;
+  border: 3px solid #fff;
+  overflow: hidden;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.dummyProfileContainerMedium .dummyProfile {
+  height: 100%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.dummyProfileContainerLarge {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  height: 75px;
+  width: 75px;
+  border: 3px solid #fff;
+  overflow: hidden;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.dummyProfileContainerLarge .dummyProfile {
+  height: 100%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.promptInputSmall {
+  padding-right: 0px !important;
+  height: 30px;
+  min-width: 25px;
+  background-color: #fff;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 2px solid rgb(65, 150, 247);
+}
+
+.promptInputSmall .sendButton {
+  font-size: 16px;
+}
+
+.promptInputSmall .typewriterWrapperClass {
+  font-size: 14px;
+}
+
+.promptInputMedium {
+  padding-right: 0px;
+  height: 50px;
+  min-width: 50px;
+  background-color: #fff;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 2px solid rgb(65, 150, 247);
+}
+
+.promptInputMedium .sendButton {
+  font-size: 24px;
+}
+
+.promptInputMedium .typewriterWrapperClass {
+  font-size: 16px;
+}
+
+.promptInputLarge {
+  padding-right: 0px;
+  height: 75px;
+  min-width: 75px;
+  background-color: #fff;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border: 2px solid rgb(65, 150, 247);
+}
+
+.promptInputLarge .sendButton {
+  font-size: 24px;
+}
+
+.promptInputLarge .typewriterWrapperClass {
+  font-size: 24px;
+}
+
+.sendBtnWrapper {
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
+}.cardComponentWrapper {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.cardComponentWrapper .cardImageClass {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+.cardComponentWrapper .cardImageClass .typeWriterClassCard {
+  position: absolute;
+  bottom: -25px;
+  left: 20px;
+}:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
